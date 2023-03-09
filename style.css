@@ -1,0 +1,123 @@
+body{
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 40%; 
+    font-family: 'Montserrat', sans-serif;
+     margin-right: 40%;
+    /* align-items: center; */
+    
+}
+
+.container{
+    align-content: center;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.display-time{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: transparent;
+    width: 230px;
+    height: 10%;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    margin-left: 35px;
+
+}
+
+
+.clock-img{
+    width: 40px;
+    height: 40px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+#clock{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+.scheduled-alarm{
+    border: 2px solid black;
+    border-bottom: none;
+    box-shadow: 2px 2px 2px grey;
+    box-shadow: 2px 0px 0px grey;
+}
+
+.alarm-heading{
+    color: grey;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.create-alarm-container{
+    margin-top: -20px;
+    height: 40px;
+    padding-top: 0px;
+}
+
+.controls button{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #466a99;
+    border-color: #466a99;
+    color: whitesmoke;
+    width: 105px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight:500;
+}
+
+.controls button:hover{
+    background-color: #204b74;
+}
+
+#myList{
+    list-style-type: none;
+    
+}
+
+#myList li{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color: #204b74;
+    height: 2rem;
+    margin-left: -30px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 10px;
+    width: 280px;
+    margin-bottom: 10px;
+
+}
+
+.time-list{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.time-list span{
+    /* background-color: violet; */
+    width: 160px;
+    margin-right: 18px;
+    
+}
+
+.time-list button{
+    background-color: #5d759d;
+    border-color: #5d759d;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 22px;
+    color: whitesmoke;
+}
